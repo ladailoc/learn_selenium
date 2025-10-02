@@ -24,7 +24,7 @@ public class WaitTest extends Init{
         emailField.sendKeys("bpb@bpb.com");
 
         WebElement passwordField = driver.findElement(By.name("password"));
-        passwordField.isDisplayed()? System.out.println("Password field is displayed") : System.out.println("Password field is not displayed");
+        // passwordField.isDisplayed()? System.out.println("Password field is displayed") : System.out.println("Password field is not displayed");
         passwordField.clear();
         passwordField.sendKeys("bpb@123");
 
